@@ -5,7 +5,6 @@ body{
 }
 
 header {
-    background-color: pink;
     text-align: right;
     padding: 10px;
     background-image: url(../img/header.png);
@@ -99,4 +98,13 @@ footer p{
     color: gray;
     font-size: 14px;
     text-align: right
+}
+
+.about{
+    width: 400px;
+    margin: 0 auto 60px;
+}
+
+.about p{
+    text-align: left;
 }
