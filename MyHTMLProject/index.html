@@ -32,17 +32,28 @@
         <form action="">
             <p>
                 <label for="name">氏名</label>
-                <!-- <input type="text" id="name" value="名無しです"> -->
                 <input type="text" id="name" placeholder="本名を入力してください">
             </p>
             <p>
+                <label for="pwd">パスワード</label>
+                <input type="password" id="pwd">
+            </p>
+            <p>
+                <label for="product">対象商品</label>
+                <select id="product" size="3" multiple>
+                    <option>Product A</option>
+                    <option>Product B</option>
+                    <option selected>Product C</option>
+                    <option>Product D</option>
+                    <option>Product E</option>
+                </select>
+            </p>
+            <p>
                 <label for="massage">メッセージ</label>
-                <!-- <textarea name="" id="message" cols="30" rows="10">メッセージです</textarea> -->
                 <textarea name="" id="message" placeholder="140字以内でお願いします"></textarea>
             </p>
             <p>
-                <!-- <button>送信</button> -->
-                <input type="submit" value="送信">
+                <button>送信</button>
             </p>
         </form>
 
