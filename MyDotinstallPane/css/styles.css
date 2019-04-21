@@ -106,5 +106,25 @@ header img{
 /* voices */
 
 .voices{
-    background:#ffd9d9;
+    background:#ffe3e3;
+}
+
+.voices .flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.voice {
+    width: 250px;
+    background: #fff;
+    position: relative;
+}
+
+.voice img{
+    border-radius: 50%;
+    border: 10px solid #fff;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
 }
