@@ -1,10 +1,19 @@
-ul{
-    /* list-style-type: circle;
-    list-style-position: inside; */
-    list-style: circle inside url(../img/icon.png)
+p{
+    line-height: 2;
 }
-ol{
-    list-style-type: lower-alpha;
-    list-style: inside;
-    /* list-style-type: none; */
+
+#open{
+    font-weight: bold;
+}
+
+.title{
+    text-align: right;
+}
+
+.h2.title{
+    font-weight: normal; 
+}
+
+*{
+    color: pink;
 }
