@@ -48,6 +48,25 @@
         border-color: red blue pink green;
         transform: skew(-15deg, 0);
     }
+    .balloon1-1{
+        width: 200px;
+        height: 100px;
+        background: #eee;
+        border-radius: 3px;
+        position: relative;
+    }
+    .balloon1-1::before{
+        position: absolute;
+        right: 20px;
+        bottom: -20px;
+        content: '';
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 10px;
+        border-color: #eee transparent transparent transparent;
+
+    }
     </style>
     <body>
         <h2>ex1</h2>
@@ -60,5 +79,9 @@
         <div class="ex4"></div>
         <h2>ex5</h2>
         <div class="ex5"></div>
+        <h2>balloon1-1</h2>
+        <div class="balloon1-1"></div>
+        <h2>ex7</h2>
+        <div class="ex7"></div>
     </body>
 </html>
