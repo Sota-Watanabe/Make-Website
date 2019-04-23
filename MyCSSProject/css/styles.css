@@ -1,4 +1,8 @@
-h1{
+body{
     color: red;
-    color: blue;
+    border: 1px solid pink;
+}
+
+h1{
+    border: inherit;
 }
