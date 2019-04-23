@@ -8,9 +8,12 @@
     background-color: skyblue;
     height: 50%;
     width: 50%;
-    /* overflow: hidden; */
-    overflow: scroll;
+    /* border-top: 2px solid blue;
+    border-bottom: 2px solid blue; */
+    border: 2px solid blue;
+    border-radius: 10px;
 }
+
 
 .box3{
     background-color: tomato;
