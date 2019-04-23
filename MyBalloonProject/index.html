@@ -113,6 +113,37 @@
         border-width: 10px;
         border-color:#fff transparent transparent transparent;
     }
+    .balloon2-2{
+        width: 200px;
+        height: 100px;
+        border: 1px solid #eee;
+        border-radius: 3px;
+        position: relative;
+    }
+    .balloon2-2::before{
+        position: absolute;
+        right: 20px;
+        bottom: -25px;
+        content: '';
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 15px 20px 10px 0;
+        border-color: #eee transparent transparent transparent;
+    }
+    .balloon2-2::after{
+        position: absolute;
+        right: 20px;
+        bottom: -24px;
+        content: '';
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 15px 19px 10px 0;
+        border-color: #fff transparent transparent transparent;
+    }
+
+
     </style>
     <body>
         <h2>ex1</h2>
