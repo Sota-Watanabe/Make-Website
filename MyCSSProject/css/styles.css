@@ -1,6 +1,9 @@
 p{
-    font-size: 16px;
-    /* line-height: 32px;
-    line-height: 2em; */
-    line-height: 2;
+    line-height: 5;
+    background-color: pink;
+}
+
+img{
+    vertical-align: top;
+    vertical-align: bottom;
 }
