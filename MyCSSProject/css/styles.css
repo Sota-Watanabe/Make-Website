@@ -1,20 +1,29 @@
+
+.box{
+    width: 100px;
+    height: 100px;   
+}
+.mini{
+    width: 30px;
+    height: 30px;
+    background-color: pink; 
+}
 .box1{
     background-color: orange;
-    width: 200px;
-    height: 200px;
 }
 
 .box2{
     background-color: skyblue;
-    height: 50%;
-    width: 50%;
-
+    /* position: static; */
+    position: relative;
 }
 
+.box-b{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
 
 .box3{
     background-color: tomato;
-    /* display: inline-block; */
-    display: none;
-    width: 100px;
 }
