@@ -2,10 +2,6 @@
     background-color: orange;
     width: 200px;
     height: 200px;
-    /* margin-bottom: 20px; */
-    margin: 0 0 20px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .box2{
@@ -18,4 +14,7 @@
 
 .box3{
     background-color: tomato;
+    /* display: inline-block; */
+    display: none;
+    width: 100px;
 }
